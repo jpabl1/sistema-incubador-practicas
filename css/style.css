@@ -1,0 +1,435 @@
+* {
+  /* Arial */
+  font-family: sans-serif;
+  font-size: 2vh;
+}
+
+body {
+  background-size: auto;
+  background-image: url(../src/images/abstracto1-naranja-con-tonos-purpuras.jpg);
+  /* background-color: #c61; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+table {
+  width: 100%;
+  background-color: #ddd;
+  border-collapse: collapse;
+  color: #000;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+td {
+  border-bottom: 2px solid #fff;
+  /* background-color: white; */
+}
+
+a {
+  color: #000;
+}
+
+.navegacion_ {
+  background-color: #0008;
+  display: flex;
+  border-radius: 5px;
+  
+}
+
+.navegacion_btn {
+  background-color: #333;
+  padding: 5px;
+  margin: 10px 5px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+#nav_regresar_inicio {
+  margin-left: 5%;
+  text-decoration: none;
+}
+
+.navegacion_btn:hover {
+    cursor: pointer;
+}
+
+span {
+  padding-right: 5px;
+}
+
+#usuario_archivos_requeridos {
+  margin: 0 auto;
+}
+
+#usuario_archivos_enviados {
+  margin: 0 auto;
+}
+
+#consulta_usuario_grupos_integrados {
+  margin-bottom: 20px;
+}
+
+.consulta {
+  width: auto;
+  background-color: #0008;
+  border-radius: 5px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+  padding: 10px;
+  box-shadow: 5px 5px 15px black;
+  overflow-x: scroll;
+}
+
+#consulta_usuario_perfil {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#consulta_usuario_perfil td.td_cuerpos {
+  width: 50%;
+  padding: 5px;
+}
+
+#consulta_usuario_perfil td.td_titulos {
+  text-align: right;
+  padding: 5px;
+}
+
+#consulta_usuario_grupo_detalle {
+  width: 100%;
+}
+
+#consulta_usuario_grupo_detalle_intengrantes {
+  width: 100%;
+}
+
+#consulta_usuario_grupo_detalle td.td_cuerpos {
+  width: 50%;
+  padding: 5px;
+}
+
+#consulta_usuario_grupo_detalle td.td_titulos {
+  text-align: right;
+  padding: 5px;
+}
+
+#consulta_usuario_grupo {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* #consulta_administrador_usuarios {
+  width: 100%;
+  table-layout: auto;
+  color: #fff;
+  background-color: #555;
+  border-radius: 5px;
+} */
+
+#consulta_administrador_grupos {
+  width: 100%;
+  table-layout: auto;
+}
+
+.td_titulos {
+  padding: 5px;
+  font-weight: 600;
+}
+
+.td_cuerpos {
+  padding: 5px;
+  font-size: 0.9em;
+}
+
+.td_opciones {
+  padding: 5px;
+  font-size: 0.9em;
+}
+
+#consulta_usuario_perfil {
+  margin-bottom: 40px;
+}
+
+.folio_grupos {
+  padding: 5px;
+  color: #000;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.consulta_contenedor {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  gap: 10px 5px;
+}
+
+.consulta_tarjeta {
+  background-color: #444;
+  border-radius: 5px;
+  padding: 3%;
+  color: #fff;
+}
+
+.consulta_tarjeta:hover {
+  cursor: pointer;
+}
+
+.titulo_pagina {
+  font-size: 1.5em;
+  margin-left: 5%;
+  color: #000;
+  font-weight: 700;
+}
+
+.inicio_sesion {
+  background-color: rgba(50, 50, 50, 0.7);
+  box-shadow: 5px 5px 15px black;
+  width: 100%;
+  padding: 5%;
+  margin-left: -10px;
+}
+
+.enlace_registro {
+  font-size: 1em;
+  color: #FFF;
+}
+
+.enlace_registro_a {
+  color: #00F;
+  text-decoration: none;
+}
+
+#mensaje {
+  background-color: #fffa;
+  color: #000;
+  width: calc(100% - 15px);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* TIENE MÁS DE 800px y NO REVASA DE 900px */
+/* @media screen and (min-width: 800px) and (max-width: 900px){
+
+} */
+
+@media screen and (min-width: 700px) {
+  .preguntas_ {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .preguntas_filas {
+    width: 100%;
+  }
+  .consulta {
+    width: auto;
+    background-color: #0008;
+    border-radius: 5px;
+    margin: 5%;
+    padding: 10px;
+    box-shadow: 5px 5px 15px black;
+    overflow-x: hidden;
+  }
+}
+
+.formularios_ {
+  background-color: #0008;
+  box-shadow: 5px 5px 15px black;
+  border-radius: 10px;
+  padding: 2% 5%;
+  margin: 5%;
+}
+
+.inicio_sesion_campos {
+  width: 50%;
+}
+
+.formularios_titulo_ {
+  color: white;
+  font-size: 1.2em;
+  font-style: oblique;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  margin: 5px;
+  padding: 5px;
+  width: 100%;
+}
+
+.pregunta_ {
+  width: calc(100% - 10px);
+  display: inline-block;
+  margin: 5px;
+  background-color: #555;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.pregunta_sola {
+  width: 97%;
+  display: inline-block;
+  margin: 5px;
+  background-color: #555;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.pregunta_titulo {
+  width: 100%;
+  font-weight: 600;
+  color: white;
+}
+
+.pregunta_label {
+  color: white;
+  font-size: 0.9em;
+}
+
+.pregunta_input {
+  width: calc(100% - 10px);
+  margin-top: 2%;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #ddd inset;
+}
+
+.pregunta_input_archivo {
+  width: calc(100% - 10px);
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 5px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #555;
+}
+
+.formularios_subir {
+    width: 100%;
+    font-style: oblique;
+    font-weight: 700;
+    background-color: #555;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.formularios_subir_sin_sombra {
+  width: 100%;
+  font-style: oblique;
+  font-weight: 700;
+  background-color: #555;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.aceptar_ingreso {
+  width: 100%;
+  font-style: oblique;
+  background-color: #5B5;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.aceptar_ingreso:hover {
+  cursor: pointer;
+}
+
+.rechazar_ingreso {
+  width: 100%;
+  font-style: oblique;
+  background-color: #B55;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.rechazar_ingreso:hover {
+  cursor: pointer;
+}
+
+.celda_vacia {
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+}
+
+.formularios_subir_sin_sombra:hover {
+  cursor: pointer;
+}
+.formularios_subir:hover {
+  cursor: pointer;
+}
+
+.pregunta_textarea {
+  resize: vertical;
+  width: calc(100% - 10px);
+  height: 100px;
+}
+
+#contenedor_consulta_grupos {
+  max-height: 500px;
+  overflow: auto;
+}
+
+#consulta_administrador_grupo_detalles {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#consulta_administrador_grupo_detalles td.td_titulos {
+  width: 20%;
+  text-align: right;  
+}
+
+#contenedor_consulta_usuarios {
+  max-height: 500px;
+  overflow: auto;
+}
+
+#consulta_administrador_usuario_detalles {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#consulta_administrador_usuario_detalles td.td_cuerpos {
+  width: 50%;
+  padding: 5px;
+}
+
+#consulta_administrador_usuario_detalles td.td_titulos {
+  text-align: right;
+  padding: 5px;
+}
+
+
+/* La scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FF0;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #880;
+}
